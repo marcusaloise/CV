@@ -1,0 +1,120 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Marcus Vinicius Aloise Teixeira} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+55(69) 984492828 \\ Porto Velho(RO), Brazil} 
+\address{\href{mailto:contact@faangpath.com}{marcusaloise@gmail.com} \\ \href{https://www.linkedin.com/in/marcusaloise/}{linkedin.com/marcusaloise/} \\ \href{https://github.com/marcusaloise/}{github.com/marcusaloise/}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{Site Reliability Engineer with 1 years of experience in 2022, seeking full-time Devops/SRE roles.
+
+Passionate about technology. Currently completing my degree in Information Systems at Cruzeiro do Sul, self-taught professional, continually improving my skills.
+
+I have experience in several tools, with a solid foundation in automation, cloud services and systems monitoring. I am certified AWS Certified Cloud Practitioner and have practical experience with Ansible, Docker, Kubernetes.
+
+}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Computer Science}, Cruzeiro do Sul \hfill {2021 - 2025}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages &  Python, Golang, Bash \\
+DevOps Tools & Ansible, Terraform, Docker, Kubernetes, GitHub Actions \\
+Cloud Platforms &  AWS (Certified) \\
+Monitoring Tools & Zabbix, New Relic, Prometheus, Grafana \\
+Database Management & MySQL \\ 
+Networking and Security &  OWASP Top 10, Wireshark/tcpdump, Trivy \\
+
+\\
+Soft Skills & Self-taught, Organized, Flexibility, Planning, Learning Mindset, Communicative. \\
+
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Devops Engineer - intern} \hfill Jan 2024 \\
+Tribunal de Justiça \hfill \textit{Porto Velho, Brazil}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Installation and configuration of bare metal servers.
+     \item Deploy applications using docker.
+    \item Creation of ansible playbook to automate configuration of Rhel machines. 
+ \end{itemize}
+ 
+\textbf{Noc - intern} \hfill Jun 2023 - Jan 2024\\
+BRasil Digital Telecom \hfill \textit{Porto Velho, Brazil}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Creation of ansible playbook to automate configuration of virtual machines.
+     \item Treatment of bases in relational databases and creation of dashboards using Power BI.
+    \item Creation of automated query microservices (api) using Python. 
+    \item Installing and configuring new relic (Observability)
+ \end{itemize}
+ 
+\textbf{Site Reliability Engineer} \hfill Jun 2022 - feb 2023\\
+C6 Bank \hfill \textit{São Paulo, Brazil}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Vulnerability management and treatment in AWS.
+     \item Creation of IAC for automation testing.
+    \item Script development for process automation.
+ \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS} 
+\vspace{-1.25em}
+\item \textbf{Server Connection Tool.} Developed ``server\_connections.sh,'' a bash script that simplifies the process of connecting to on-premise servers at my current company. By utilizing ``servers.conf,'' a configuration file, the script lists and automatically connects to servers via SSH, eliminating the need for repeated password entries. This tool has significantly enhanced the efficiency of remote server access.
+
+\item \textbf{GitHub Actions and AWS Deployment:} Developed an automated deployment process using ``GitHub Actions'' to update a personal website hosted on AWS S3. The process triggers upon a push to the main branch, deploying the latest version of the site automatically. This setup not only streamlines updates but also integrates ``servers.conf,'' a configuration file that aids in managing deployments. Such automation has substantially increased the efficiency of maintaining and updating the site, making it an excellent showcase of practical CI/CD principles in action.
+
+\item \textbf{Kubernetes Cluster Implementation:} Successfully set up a Kubernetes cluster independently using ``kubeadm'' for cluster management and ``metallb'' as a load balancer to expose services externally. This project involved configuring multiple nodes, ensuring high availability, and implementing network policies to secure inter-pod communication. The deployment of this cluster demonstrates proficiency in key Kubernetes concepts and tools, significantly enhancing the scalability and reliability of containerized applications.
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Curricular Activities} 
+\begin{itemize}
+    \item 	I volunteer at a local church to do live streaming 
+    \item	Calisthenics athlete.
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
